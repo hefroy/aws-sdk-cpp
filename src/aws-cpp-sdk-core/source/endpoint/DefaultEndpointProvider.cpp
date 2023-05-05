@@ -19,6 +19,8 @@ template class AWS_CORE_API DefaultEndpointProvider<Aws::Client::GenericClientCo
             Aws::Endpoint::BuiltInParameters,
             Aws::Endpoint::ClientContextParameters>;
 
+template class AWS_CORE_API DefaultEndpointProvider<Aws::Client::GenericClientConfiguration<true>>;
+
 char CharToDec(const char c)
 {
     if(c >= '0' && c <= '9')

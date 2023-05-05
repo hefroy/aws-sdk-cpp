@@ -16,5 +16,6 @@ template class AWS_CORE_API EndpointProviderBase<Aws::Client::GenericClientConfi
             Aws::Endpoint::BuiltInParameters,
             Aws::Endpoint::ClientContextParameters>;
 
+template class AWS_CORE_API EndpointProviderBase<Aws::Client::GenericClientConfiguration<true>>;
 } // namespace Endpoint
 } // namespace Aws

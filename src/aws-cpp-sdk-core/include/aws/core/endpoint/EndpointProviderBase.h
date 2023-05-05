@@ -71,6 +71,6 @@ namespace Aws
         };
 
         // Export symbol from the DLL:
-        template class AWS_CORE_API EndpointProviderBase<Aws::Client::GenericClientConfiguration</*HasEndpointDiscovery*/ true> >;
+        extern template class AWS_CORE_API EndpointProviderBase<Aws::Client::GenericClientConfiguration</*HasEndpointDiscovery*/ true> >;
     } // namespace Endpoint
 } // namespace Aws

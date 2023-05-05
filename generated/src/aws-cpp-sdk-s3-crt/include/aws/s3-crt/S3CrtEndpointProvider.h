@@ -82,10 +82,10 @@ namespace Endpoint
 /**
  * Export endpoint provider symbols from DLL
  */
-template class AWS_S3CRT_API
+extern template class AWS_S3CRT_API
     Aws::Endpoint::EndpointProviderBase<S3Crt::Endpoint::S3CrtClientConfiguration, S3Crt::Endpoint::S3CrtBuiltInParameters, S3Crt::Endpoint::S3CrtClientContextParameters>;
 
-template class AWS_S3CRT_API
+extern template class AWS_S3CRT_API
     Aws::Endpoint::DefaultEndpointProvider<S3Crt::Endpoint::S3CrtClientConfiguration, S3Crt::Endpoint::S3CrtBuiltInParameters, S3Crt::Endpoint::S3CrtClientContextParameters>;
 } // namespace Endpoint
 
