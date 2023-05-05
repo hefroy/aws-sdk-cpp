@@ -109,8 +109,5 @@ namespace Aws
             /* Also known as parameters on the ClientConfiguration in this SDK */
             BuiltInParametersT m_builtInParameters;
         };
-
-        // Export symbol from the DLL:
-        template class AWS_CORE_API DefaultEndpointProvider<Aws::Client::GenericClientConfiguration</*HasEndpointDiscovery*/ true> >;
     } // namespace Endpoint
 } // namespace Aws
